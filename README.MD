@@ -8,7 +8,7 @@ I came across a bunch of online pictures of a card game from the 1990s, and afte
 
 >Game deployed [HERE](https://incomparable-beignet-36f46c.netlify.app/) :)
 
-![Wizardry](public/assets/iron-golem.jpg)![Wizardry](public/assets/the-beauty.jpg)![Wizardry](public/assets/wyvern.jpg)
+![Wizardry](public/assets/wyvern.jpg)
 
 
 ###More Information

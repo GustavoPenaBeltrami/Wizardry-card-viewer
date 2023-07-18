@@ -8,7 +8,7 @@ export const Carousel = ({ images }) => {
   const [source, setSource] = useState("");
   const [scope, animate] = useAnimate();
   const [position, setPosition] = useState(0);
-  const movement = 1120;
+  const movement = 920;
 
   setTimeout(() => {
     if (position === movement * images.length * -1) {
@@ -53,7 +53,8 @@ export const Carousel = ({ images }) => {
 
   return (
     <>
-      <div className="carousel">
+      <div className="carousel"
+      style={{ "--carousel-width": `${movement}px` }}>
         <img onClick={left} src="/css-images/left.png" alt="Left" />
         <div>
           <motion.div ref={scope} className="inner-carousel" initial={{ x: 0 }}>
